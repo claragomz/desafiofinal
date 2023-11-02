@@ -1,0 +1,321 @@
+/*PROJETO CLARINHA*/
+
+:root{
+    --black:#252525;
+    --white:#F4F2F3;
+    --rosa_pink:#EB4A7B;
+    --rosa_clarinho:#FD6A9A;
+    --cor05:#3A342F;
+    --fonte_1: Arial, Helvetica, sans-serif;
+    --fonte_2: 'Roboto Serif', serif;
+    --fonte_3: normal, normal, sans-serif;
+    --fonte_4: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CABEÇALHO*/
+
+header figure img{
+    width: 50px;
+}
+
+header{
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+}
+
+header figure{
+    align-items: center;
+    position: relative;
+    right: -100px;
+    display: flex;
+    width: 35px;
+    justify-content: space-evenly;
+    
+}
+
+header figure img:hover{
+    cursor: pointer;
+    transform: scale(85%);
+}
+
+header figure h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header nav{
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    right: 100px;
+}
+
+header nav img:hover{
+    cursor: pointer;
+    transform: scale(115%);
+}
+
+main section#inauguracao_part1{
+    height: 100vh;
+    background-image: url('../assets/Grupo 486@2x.png');
+    background-size: 100% 100%;
+}
+
+main section#inauguracao_part1 figure{
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 30px;
+}
+
+main section#inauguracao_part1 h2{
+    white-space: pre-line;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+   
+}
+
+main section#inauguracao_part1 img{
+    width: 121px;
+}
+
+main section#inauguracao_part1 img:hover{
+    cursor: pointer;
+    transform: scale(115%);
+}
+
+/*BANHO E TOSA */
+
+
+main section#banho-tosa{
+   justify-content: center;
+    align-items: flex-start;
+    opacity: 1;
+    height: 135vh;
+    background-image: url('../assets/Interseção 16@2x.png');
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main section#banho-tosa h2{
+    font-size: 5rem;
+    color: var(--black);
+    position: relative;
+    left: 7vw;;
+}
+
+main section#banho-tosa p{
+    color: var(--black);
+    font-size: 2.4rem;
+    white-space: pre-line;
+    position: relative;
+    left: 7vw;
+    font-family: var(--fonte_4);
+}
+
+
+main section#mordomia-saudavel p{
+    color: white;
+    font-size: 2.4rem;
+    white-space: pre-line;
+    position: relative;
+    right: 14vw;
+    top: -8vh;
+    font-family: var(--fonte_4);
+}
+
+main section#banho-tosa button{
+    background-color: var(--black);
+    color: var(--white);
+    border: none;
+    padding: 35px 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100px;
+    position: relative;
+    bottom: -5vh;
+    left: 7vw;
+}
+
+main section#banho-tosa button:hover{
+    cursor: pointer;
+    transform: scale(115%);
+}
+
+main section#mordomia-saudavel{
+    
+    height: 100vh;
+    background-image: url('../assets/Grupo 480@2x.png');
+    background-size: 100% 100%;
+    white-space: pre-line;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+main section#mordomia-saudavel h2{
+    font-size: 5rem;
+    color: white;
+    position: relative;
+    right: 25vw;
+    top: -8vh;
+}
+
+main section#mordomia-saudavel button{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 25px 25px;
+    font-size: 2.4em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100px;
+    position: relative;
+    bottom: 5.5vh;
+    right: 28vw;
+}
+
+/*mordomia saudavel */
+
+main section#mordomia-saudavel button:hover{
+    cursor: pointer;
+    transform: scale(115%);
+}
+
+main section#apoio{
+    
+    height: 35vh;
+    background-color: white;
+    color: var(--rosa_pink);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main section#apoio h2{
+    font-style: italic;
+    font-size: 2.5vw;
+    font-family: var(--fonte_2);
+}
+
+main section#apoio figure{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 55vw;
+}
+
+main section#apoio img:hover{
+    cursor: pointer;
+    transform: scale(115%);
+}
+/*FOOTER*/
+
+footer ul{
+    list-style: none;
+    font-family: var(--fonte_4);  
+}
+
+footer li:hover{
+    cursor: pointer;
+    transform: scale(125%);
+}
+
+footer{
+   
+    height: 80vh;
+    background-color: var(--rosa_pink);
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer section nav{
+   
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer section#logo{
+    
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 40%;
+    position: relative;
+    top: -10vh;
+}
+
+footer section#logo figure{
+    
+    width: 28vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer section#logo figure img{
+    width: 25px;
+}
+
+footer section#logo figure img:hover{
+    cursor: pointer;
+    transform: scale(115%);
+}
+
+footer section#logo nav{
+    
+    width: 28vw;
+    justify-content: space-evenly;
+}
+
+footer section#logo nav img:hover{
+    cursor: pointer;
+    transform: scale(115%);
+}
+
+footer section#menu{
+   
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -20vh;
+}
+
+footer h2{
+    font-family: var(--fonte_2);
+    font-weight: bold;
+}
+
+
+
+
+    
